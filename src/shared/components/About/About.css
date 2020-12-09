@@ -1,0 +1,16 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60vh;
+}
+
+
+@media (min-width: 768px) {
+    #about {
+        
+        flex-direction: row;
+    }
+    
+
+}

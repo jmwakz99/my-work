@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavHashLink as Link } from 'react-router-hash-link';
 
 import './NavLinks.css'
 
@@ -7,13 +7,13 @@ import './NavLinks.css'
 const NavLinks = (props) => {
     return <ul className="nav-links">
         <li>
-            <NavLink to="/" exact>ABOUT ME</NavLink>
+            <Link smooth to="/#about" >ABOUT ME</Link>
         </li>
         <li>
-            <NavLink to="/portfolio">PORTFOLIO</NavLink>
+            <Link smooth to="/#portfolio">PORTFOLIO</Link>
         </li>
         <li>
-            <NavLink to="/contact">CONTACT ME</NavLink>
+            <Link smooth to="/#contact">CONTACT ME</Link>
         </li>
 
     </ul>

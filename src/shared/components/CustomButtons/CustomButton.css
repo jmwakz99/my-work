@@ -1,0 +1,20 @@
+.btn {
+    padding: 1rem;
+    width: 70%;
+    margin: 0 auto;
+    background: #FEB633;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 1rem;
+}
+.btn:focus {
+    outline: none;
+}
+.btn:hover {
+    color: #FEB633;
+    background: transparent;
+    border: 1px solid #FEB633;
+
+}

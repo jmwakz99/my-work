@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavHashLink as Link } from 'react-router-hash-link';
 
 import MainHeader from './MainHeader';
 import NavLinks from './NavLinks';
@@ -35,8 +35,10 @@ const MainNavigation = props => {
                     <span />
                     <span />
                 </button>
-                <h1 className="main-navigation__title">
-                    <Link to="/" className="">JM.</Link>
+                <h1 className="main-navigation__logo">
+                    <Link smooth to="/#home">
+                        <img src='/logs.png' className="logo" alt="Logo" />
+                    </Link>
                 </h1>
                 <nav className="main-navigation__header-nav">
                     <NavLinks />
