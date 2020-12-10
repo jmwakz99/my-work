@@ -1,4 +1,35 @@
 .about-me {
     color: white;
-    font-size: 1rem;
+    font-size: 2rem;
+    padding-top: 15rem;
+    
+  
+ 
+}
+
+.bottom-line {
+    display: block;
+    border-color: yellow;
+    content: " ";
+    border-bottom-style: solid;
+    border-bottom-width: 0.3rem;
+    width: 6rem;
+    padding-top: 1rem;
+
+    
+}
+
+@media (min-width: 768px) {
+    .about-me {
+        color: white;
+        font-size: 3rem;
+        width: 40%;
+        padding-left:12rem;
+        padding-top: 0;
+        margin-top: 0;
+      
+
+    }
+
+
 }

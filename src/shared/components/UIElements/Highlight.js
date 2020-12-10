@@ -12,7 +12,7 @@ const Highlight = props => {
         <img src="/me.jpg" className="me" alt="" />
         <h1 className="name">I'm Johnson</h1>
         <p className="title">Web Developer</p>
-        <CustomButton className="btn">
+        <CustomButton className="btn-center">
             Hire Me
 
         </CustomButton>

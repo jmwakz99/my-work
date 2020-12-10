@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <MainNavigation />
-      <main>
+      <main >
         <Switch>
           <Route path="/" exact>
             <HomePage />

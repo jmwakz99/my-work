@@ -6,8 +6,12 @@ import './About.css'
 
 const About = props => {
     return <section id="about">
+
         <Left />
         <Right />
+
+
+
     </section>
 
 }

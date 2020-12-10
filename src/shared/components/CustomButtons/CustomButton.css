@@ -1,6 +1,19 @@
 .btn {
     padding: 1rem;
     width: 70%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background: #FEB633;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 1rem;
+
+}
+.btn-center {
+    padding: 1rem;
+    width: 70%;
     margin: 0 auto;
     background: #FEB633;
     cursor: pointer;
@@ -8,6 +21,27 @@
     border: 0;
     color: white;
     font-size: 1rem;
+
+}
+.btn-outline {
+    padding: 1rem;
+    width: 70%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 1rem;
+    color: #FEB633;
+    background: transparent;
+    border: 1px solid #FEB633;
+
+}
+.btn-outline:hover {
+    background:  #FEB633;
+    color: white;
+
 }
 .btn:focus {
     outline: none;

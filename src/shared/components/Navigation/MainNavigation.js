@@ -17,6 +17,11 @@ const MainNavigation = props => {
     const closeDrawerHandler = () => {
         setDrawerIsOpen(false)
     }
+    const scrollWithOffset = (el) => {
+        const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+        const yOffset = -90;
+        window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
+    }
 
     return (
         <React.Fragment>
@@ -36,7 +41,7 @@ const MainNavigation = props => {
                     <span />
                 </button>
                 <h1 className="main-navigation__logo">
-                    <Link smooth to="/#home">
+                    <Link scroll={el => scrollWithOffset(el)} to="#">
                         <img src='/logs.png' className="logo" alt="Logo" />
                     </Link>
                 </h1>

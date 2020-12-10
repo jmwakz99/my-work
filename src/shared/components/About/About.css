@@ -2,14 +2,22 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 60vh;
+    align-items: center;
+    height: 100vh;
+    background-color: #303131;
+    padding-top: 2rem;
+    padding-bottom: 20rem;
+    margin-top: 0;
 }
 
 
 @media (min-width: 768px) {
     #about {
-        
-        flex-direction: row;
+      flex-direction: row;
+      align-items: center;
+      padding-top: 1rem;
+      padding-bottom: 10rem;
+      
     }
     
 
