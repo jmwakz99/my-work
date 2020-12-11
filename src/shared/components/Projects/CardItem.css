@@ -3,6 +3,9 @@
     height: 1%;
     background-color: transparent;
 }
+.portfolio__image {
+    max-width: 2rem;
+}
 
 @media (min-width: 768px) {
     .portfolio-card {

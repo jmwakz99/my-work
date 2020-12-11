@@ -6,8 +6,8 @@ import './CardItem.css'
 
 const CardItem = props => {
     return <section id="portfolio">
-        <Card className="portfolio-card">
-            Test
+        <Card>
+            <img src="/utally.png" alt="" className="portfolio__image" />
         </Card>
 
     </section>
