@@ -12,7 +12,7 @@ const Card = props => {
 
   return (
     <React.Fragment>
-      <Modal show={showModal} onCancel={closeModalHandler} contentClass="place-item__modal-content" footerClass="modal__footer">
+      <Modal show={showModal} onCancel={closeModalHandler} {...props} contentClass="place-item__modal-content" footerClass="modal__footer">
 
       </Modal>
       <div className="flip-card">

@@ -1,6 +1,7 @@
 .portfolio-card {
-    padding: 10rem;
+    padding: 5rem;
     height: 1%;
+    width: 1rem;
     background-color: transparent;
 }
 .portfolio__image {

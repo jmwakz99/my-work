@@ -4,6 +4,7 @@ import Jumbotron from '../shared/components/UIElements/Jumbotron'
 import Highlight from '../shared/components/UIElements/Highlight'
 import About from '../shared/components/About/About'
 import Projects from '../shared/components/Projects/Projects'
+import Contact from '../shared/components/Contact/Contact'
 import './HomePage.css'
 
 
@@ -14,6 +15,7 @@ const HomePage = props => {
         </Jumbotron>
         <About />
         <Projects />
+        <Contact />
 
 
     </section>

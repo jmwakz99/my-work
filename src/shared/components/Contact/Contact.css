@@ -1,0 +1,13 @@
+#contact {
+
+    height: 50vh;
+    background-color: #303131;
+    padding-top: 2rem;
+    padding-bottom: 20rem;
+    margin-top: 0;
+}
+.contact-title {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}

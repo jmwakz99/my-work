@@ -44,7 +44,7 @@
 }
 .view-project-icon-holder {
   position: absolute;
-  top: 8rem;
+  top: 7rem;
   right: 8rem;
   
 }
@@ -62,6 +62,14 @@
 }
 
 @media (min-width: 768px) {
+  .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  position: relative;
+}
+ 
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
     cursor: pointer;

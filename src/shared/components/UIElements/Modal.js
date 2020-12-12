@@ -15,22 +15,18 @@ const ModalOverlay = props => {
 
         </header>
         <div className={`modal__content ${props.contentClass}`}>
-            {props.children}
-            <h4>U-TALLY</h4>
-            lorem ipssum dolor sit amet, consectetur adipiscing el
-            lorem ipssum dolor sit amet, consectetur adipiscing el
-            lorem ipssum dolor sit amet, consectetur adipiscing el
-            lorem ipssum dolor sit amet, consectetur adipiscing el
-            lorem ipssum dolor sit amet, consectetur adipiscing el
-            lorem ipssum dolor sit amet, consectetur adipiscing el
 
+            <h4 className="project-name">{props.title && props.title.toUpperCase()}</h4>
+            {props.description}
 
         </div>
         <footer className={`modal__footer ${props.footerClass}`}>
-            {props.children}
+            {props.preview && <a href={props.preview} className="footer__button" target="_blank" rel="noreferrer">preview</a>}
+            {props.code && <a href={props.code} className="footer__button" target="_blank" rel="noreferrer">source code</a>}
 
-            <a href="https://u-tally.com" className="footer__button" target="_blank" rel="noreferrer">preview</a>
-            <a href="https://github.com" className="footer__button" target="_blank" rel="noreferrer">code</a>
+
+
+
 
 
         </footer>

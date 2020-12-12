@@ -1,13 +1,19 @@
 .modal {
     z-index: 100;
     position: fixed;
-    top: 20vh;
-    left: 10%;
-    width: 80%;
+    top: 22vh;
+    left: 5%;
+    width: 90%;
     background: white;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     border-radius: 8px;
-    height: 20rem;
+    min-height: 25rem;
+    max-height: 25rem;
+    display:flex;
+    flex-direction: column;
+  
+ 
+    
   }
   
   .modal__header {
@@ -19,15 +25,28 @@
     background: rgb(43,44,44);
     color: white;
   }
-  
-  .modal__header h2 {
-    margin: 0.5rem;
-   
-  }
-  
+  .close-modal {
+    padding-right: 1rem;
+     cursor: pointer;
+     color : white;
+ }
+ .close-modal:focus {
+     outline: none;
+ }
+
+  .project-name{
+    text-align: center;
+    margin-top: 0.5rem;
+}
   .modal__content {
-    padding: 1rem 0.5rem;
-    width: 100%;
+    padding: 1rem 1rem;
+    max-width: 100%;
+    min-height: 13rem;
+  
+  
+   
+    
+    
   }
   
   .modal__footer {
@@ -35,26 +54,21 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-top: 2rem;
     align-items: flex-end;
+    max-width: 100%;
+  
   }
 
-  .close-modal {
-     padding-right: 1rem;
-      cursor: pointer;
-      color : white;
-  }
-  .close-modal:focus {
-      outline: none;
-  }
+
 
   .footer__button {
-      display: block;
       background: yellow;
       text-decoration: none;
       margin-right: 1rem;
-      padding: 0.5rem;
+      padding: 0.5rem; 
       transition: all .5s;
+      margin-top: 2rem; 
+    
 
   }
   .footer__button:focus {
@@ -68,8 +82,19 @@
   
   @media (min-width: 768px) {
     .modal {
-      left: calc(50% - 20rem);
+      left: calc(50% - 22rem);
       width: 40rem;
+      top: 20vh;
+     
+    }
+    .modal__content {
+        padding: 1rem 3rem;
+        min-height: 8rem;
+    }
+    .footer__button {
+        margin-top: 7rem;
+        
+  
     }
   }
   
