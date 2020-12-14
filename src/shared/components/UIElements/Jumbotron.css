@@ -1,7 +1,24 @@
 .jumbotron {
-    background-color: #2B2C2C;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
+    background-color: transparent;
+    color: #FFFFFF;
+    height: 100vh!important;
     margin-bottom: 0;
+    
+  
+
+}
+.profile-image{
+    transition: all .5s;
+    cursor: pointer;
+    border: 1px solid yellow;
+}
+.profile-image:hover {
+    transform: scale(1.2)
+}
+.web-developer {
+    color: #CCCCCC;
+}
+
+.btn-hire__me {
+    font-size: 1.2rem!important;
 }

@@ -1,24 +1,19 @@
 #about {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 100vh;
-    background-color: #303131;
-    padding-top: 2rem;
-    padding-bottom: 20rem;
-    margin-top: 0;
+  background: #303131;
+  height: 100vh;
+  margin-top: 0!important;
+  padding-top: 0!important;
+   
 }
 
+.bottom-line {
+  display: block;
+  border-color: yellow;
+  content: " ";
+  border-bottom-style: solid;
+  border-bottom-width: 0.3rem;
+  width: 6rem;
+  padding-top: 1rem;
 
-@media (min-width: 768px) {
-    #about {
-      flex-direction: row;
-      align-items: center;
-      padding-top: 1rem;
-      padding-bottom: 10rem;
-      
-    }
-    
-
+  
 }

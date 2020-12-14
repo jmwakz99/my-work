@@ -1,6 +1,34 @@
-#portfolio {
- height: 90vh;
- color: white;
+
+ #portfolio {
+height: 100vh;
+color: white;
+padding-top: 2rem;
+}
+
+.porfolio-title {
+    text-align: center;
+    font-size: 2rem;
+   
+
+}
+.bottom-line-portfolio{
+    display: block;
+    border-color: yellow;
+    content: " ";
+    border-bottom-style: solid;
+    border-bottom-width: 0.3rem;
+    width: 5rem;
+    padding-top: 1rem;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* #portfolio {
+height: 100vh;
+color: white;
 padding-top: 2rem;
 }
 
@@ -21,10 +49,7 @@ padding-top: 2rem;
     margin: 0 auto;
 }
 .portfolio-holder {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+ 
   
 
 }
@@ -34,10 +59,6 @@ padding-top: 2rem;
         font-size: 3rem;
 
     }
-    .portfolio-holder {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
+ 
 
-}
+} */

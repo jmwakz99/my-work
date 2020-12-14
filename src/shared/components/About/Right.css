@@ -1,42 +1,8 @@
-.about-me-description{
+/* .about-me-description{
     line-height: 2rem;
     color: white;
     padding: 2rem;
 
    
-}
-.skills-title {
-    font-size: 1rem;
-    margin-bottom: 0;
-    /* color: yellow; */
-}
-.skills {
-    color: yellow;
-    line-height: 1rem;
-  
+} */
 
-}
-.custom-buttons {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin-top: 1rem;
-  
-}
-
-@media (min-width: 768px) {
-    .about-me-description {
-        width: 80%;
-        padding-right: 4rem;
-        padding-top: 0;
-        height: 40vh;
-        line-height: 2rem;
-        color: white;
-        
-    }
-    .custom-buttons {
-        display: flex;
-        flex-direction: row;
-    }
-
-}

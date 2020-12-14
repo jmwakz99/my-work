@@ -6,9 +6,11 @@ import './CardItem.css'
 
 const CardItem = props => {
     return <section id="portfolio">
-        <Card {...props}>
+        <Card project={props.project}>
             <img src="/utally.png" alt="" className="portfolio__image" />
         </Card>
+
+
 
     </section>
 
