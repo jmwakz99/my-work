@@ -15,7 +15,7 @@ const Jumbotron = props => {
             <img src="/me.jpg" className="rounded-circle profile-image" width="130" height="130" alt="" />
             <div className="">
                 <h1 className="text-center display-4 pt-3">I'm Johnson</h1>
-                <p className="lead web-developer pt-1 pb-1">Web Developer</p>
+                <p className="lead web-developer pt-1 pb-1">Frontend Developer</p>
 
             </div>
 
@@ -31,7 +31,7 @@ const Jumbotron = props => {
             <img src="/me.jpg" className="rounded-circle profile-image" width="90" height="90" alt="" />
             <div className="">
                 <h2 className="text-center pt-3">I'm Johnson</h2>
-                <p className="lead web-developer pt-1 pb-1">Web Developer</p>
+                <p className="lead web-developer pt-1 pb-1">Frontend Developer</p>
 
             </div>
 
